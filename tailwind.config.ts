@@ -71,15 +71,16 @@ export default {
 				portfolio: {
 					blue: '#1E40AF',
 					lightBlue: '#3B82F6',
-					dark: '#111119',     // Updated dark background
-					darker: '#0A0A12',   // Even darker shade
+					dark: '#0c0c14',     // Darker background
+					darker: '#07070f',   // Even darker shade
 					light: '#F8FAFC',
-					accent: '#8344AD',   // Rich purple accent
-					purple: '#6D28D9',   // Additional purple
-					deepPurple: '#4C1D95', // Deep purple
+					accent: '#D4AF37',   // Gold accent
 					gold: '#D4AF37',     // Luxurious gold
+					darkGold: '#B08C21', // Darker gold
+					champagne: '#F7E7CE', // Light gold/champagne
 					neutral: '#6B7280',
 					charcoal: '#1A1A2E', // Dark charcoal
+					black: '#050508',    // Almost black
 				}
 			},
 			borderRadius: {
@@ -153,8 +154,9 @@ export default {
 			},
 			backgroundImage: {
 				'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-				'gradient-luxury': 'linear-gradient(to right, #8344AD, #5e60ce)',
+				'gradient-luxury': 'linear-gradient(to right, #d4af37, #b08c21)',
 				'gradient-gold': 'linear-gradient(to right, #d4af37, #f2d98f)',
+				'gradient-dark': 'linear-gradient(to bottom, #0c0c14, #050508)',
 			}
 		}
 	},

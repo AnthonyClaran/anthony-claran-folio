@@ -22,11 +22,11 @@ const AboutSection = () => {
         
         <div className="grid md:grid-cols-3 gap-8 mt-12">
           {/* Education */}
-          <div className="glass-card p-6 transition-all duration-300 hover:shadow-purple-500/5">
-            <div className="w-12 h-12 bg-purple-900/30 rounded-lg mb-6 flex items-center justify-center">
-              <GraduationCap className="text-purple-400" size={24} />
+          <div className="glass-card p-6 transition-all duration-300 hover:shadow-amber-500/5">
+            <div className="w-12 h-12 bg-amber-900/30 rounded-lg mb-6 flex items-center justify-center">
+              <GraduationCap className="text-amber-400" size={24} />
             </div>
-            <h3 className="text-xl font-bold mb-3 text-purple-200">Parcours académique</h3>
+            <h3 className="text-xl font-bold mb-3 text-amber-200">Parcours académique</h3>
             <div className="space-y-4">
               <div>
                 <h4 className="font-medium text-gray-200">Étudiant en Informatique</h4>
@@ -69,23 +69,23 @@ const AboutSection = () => {
             <h3 className="text-xl font-bold mb-3 text-purple-200">Compétences clés</h3>
             <ul className="space-y-2 text-gray-300">
               <li className="flex items-center">
-                <span className="w-2 h-2 bg-purple-500 rounded-full mr-2"></span>
+                <span className="w-2 h-2 bg-amber-500 rounded-full mr-2"></span>
                 <span>Développement Full Stack</span>
               </li>
               <li className="flex items-center">
-                <span className="w-2 h-2 bg-purple-500 rounded-full mr-2"></span>
+                <span className="w-2 h-2 bg-amber-500 rounded-full mr-2"></span>
                 <span>UI/UX Design</span>
               </li>
               <li className="flex items-center">
-                <span className="w-2 h-2 bg-purple-500 rounded-full mr-2"></span>
+                <span className="w-2 h-2 bg-amber-500 rounded-full mr-2"></span>
                 <span>Design Graphique</span>
               </li>
               <li className="flex items-center">
-                <span className="w-2 h-2 bg-purple-500 rounded-full mr-2"></span>
+                <span className="w-2 h-2 bg-amber-500 rounded-full mr-2"></span>
                 <span>Gestion de Projets</span>
               </li>
               <li className="flex items-center">
-                <span className="w-2 h-2 bg-purple-500 rounded-full mr-2"></span>
+                <span className="w-2 h-2 bg-amber-500 rounded-full mr-2"></span>
                 <span>Communication Visuelle</span>
               </li>
             </ul>

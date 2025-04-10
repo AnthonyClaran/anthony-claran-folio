@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-8 pb-8">
           <div>
             <h3 className="text-2xl font-bold mb-4">
-              <span className="bg-gradient-to-r from-purple-500 to-indigo-400 bg-clip-text text-transparent">Anthony</span>
+              <span className="bg-gradient-to-r from-amber-400 to-yellow-300 bg-clip-text text-transparent">Anthony</span>
               <span className="text-gray-200"> Claran</span>
             </h3>
             <p className="text-gray-400 mb-4">
@@ -34,19 +34,19 @@ const Footer = () => {
             <h3 className="text-xl font-bold mb-4 text-gray-200">Navigation</h3>
             <ul className="space-y-2">
               <li>
-                <a href="#home" className="text-gray-400 hover:text-purple-400 transition-colors duration-300">Accueil</a>
+                <a href="#home" className="text-gray-400 hover:text-amber-400 transition-colors duration-300">Accueil</a>
               </li>
               <li>
-                <a href="#about" className="text-gray-400 hover:text-purple-400 transition-colors duration-300">À propos</a>
+                <a href="#about" className="text-gray-400 hover:text-amber-400 transition-colors duration-300">À propos</a>
               </li>
               <li>
-                <a href="#skills" className="text-gray-400 hover:text-purple-400 transition-colors duration-300">Compétences</a>
+                <a href="#skills" className="text-gray-400 hover:text-amber-400 transition-colors duration-300">Compétences</a>
               </li>
               <li>
-                <a href="#projects" className="text-gray-400 hover:text-purple-400 transition-colors duration-300">Projets</a>
+                <a href="#projects" className="text-gray-400 hover:text-amber-400 transition-colors duration-300">Projets</a>
               </li>
               <li>
-                <a href="#contact" className="text-gray-400 hover:text-purple-400 transition-colors duration-300">Contact</a>
+                <a href="#contact" className="text-gray-400 hover:text-amber-400 transition-colors duration-300">Contact</a>
               </li>
             </ul>
           </div>
@@ -55,18 +55,18 @@ const Footer = () => {
             <h3 className="text-xl font-bold mb-4 text-gray-200">Coordonnées</h3>
             <ul className="space-y-3">
               <li className="flex items-start">
-                <MapPin size={20} className="text-purple-400 mt-1 mr-3 flex-shrink-0" />
+                <MapPin size={20} className="text-amber-400 mt-1 mr-3 flex-shrink-0" />
                 <span className="text-gray-400">Andoharanofotsy, Antananarivo, Madagascar</span>
               </li>
               <li className="flex items-center">
-                <Mail size={20} className="text-purple-400 mr-3 flex-shrink-0" />
-                <a href="mailto:contact@anthonyclaran.com" className="text-gray-400 hover:text-purple-400 transition-colors duration-300">
+                <Mail size={20} className="text-amber-400 mr-3 flex-shrink-0" />
+                <a href="mailto:contact@anthonyclaran.com" className="text-gray-400 hover:text-amber-400 transition-colors duration-300">
                   contact@anthonyclaran.com
                 </a>
               </li>
               <li className="flex items-center">
-                <Phone size={20} className="text-purple-400 mr-3 flex-shrink-0" />
-                <a href="tel:+261XXXXXXXXX" className="text-gray-400 hover:text-purple-400 transition-colors duration-300">
+                <Phone size={20} className="text-amber-400 mr-3 flex-shrink-0" />
+                <a href="tel:+261XXXXXXXXX" className="text-gray-400 hover:text-amber-400 transition-colors duration-300">
                   +261 XX XX XX XX
                 </a>
               </li>
