@@ -1,3 +1,4 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -113,23 +114,23 @@
   }
 
   .text-gradient {
-    @apply bg-gradient-to-r from-portfolio-blue to-portfolio-accent bg-clip-text text-transparent;
+    @apply bg-gradient-to-r from-indigo-600 to-purple-500 bg-clip-text text-transparent;
   }
 
   .btn-primary {
-    @apply bg-portfolio-blue hover:bg-portfolio-lightBlue text-white px-6 py-3 rounded-md transition-colors duration-300 font-medium;
+    @apply bg-gradient-to-r from-indigo-600 to-purple-600 text-white px-6 py-3 rounded-full transition-all duration-300 font-medium hover:shadow-lg hover:shadow-indigo-500/30 transform hover:-translate-y-1;
   }
   
   .btn-secondary {
-    @apply bg-white hover:bg-gray-100 text-portfolio-dark border border-portfolio-blue px-6 py-3 rounded-md transition-colors duration-300 font-medium;
+    @apply bg-white hover:bg-gray-50 text-gray-800 border border-indigo-500 px-6 py-3 rounded-full transition-all duration-300 font-medium transform hover:-translate-y-1;
   }
 
   .nav-link {
-    @apply relative text-portfolio-dark hover:text-portfolio-blue transition-colors duration-300 after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-portfolio-blue hover:after:w-full after:transition-all after:duration-300;
+    @apply relative text-gray-700 hover:text-indigo-600 transition-colors duration-300 after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-indigo-600 hover:after:w-full after:transition-all after:duration-300;
   }
 
   .nav-link.active {
-    @apply text-portfolio-blue after:w-full;
+    @apply text-indigo-600 after:w-full;
   }
 
   .card {
@@ -137,10 +138,74 @@
   }
 
   .skill-card {
-    @apply p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-all duration-300 border-l-4 border-portfolio-blue hover:translate-y-[-5px];
+    @apply p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-all duration-300 hover:-translate-y-2;
   }
 
   .project-card {
-    @apply overflow-hidden rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:translate-y-[-5px];
+    @apply overflow-hidden rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2;
   }
+  
+  /* Designer-specific animations and effects */
+  .hover-lift {
+    @apply transition-all duration-300 transform hover:-translate-y-2 hover:shadow-xl;
+  }
+  
+  .hover-glow {
+    @apply transition-all duration-300 hover:shadow-lg;
+  }
+  
+  .gradient-border {
+    @apply relative after:absolute after:inset-0 after:p-[1px] after:rounded-xl after:bg-gradient-to-r after:from-indigo-600 after:to-purple-500 after:-z-10;
+  }
+  
+  .gradient-text {
+    @apply bg-gradient-to-r from-indigo-600 to-purple-500 bg-clip-text text-transparent;
+  }
+  
+  .designer-card {
+    @apply bg-white rounded-xl p-6 border border-gray-100 hover:border-indigo-200 shadow-sm hover:shadow-lg transition-all duration-300;
+  }
+}
+
+/* Custom animations */
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+
+.animate-float {
+  animation: float 5s ease-in-out infinite;
+}
+
+/* Designer Grid Patterns */
+.design-grid {
+  background-size: 30px 30px;
+  background-image: 
+    linear-gradient(to right, rgba(226, 232, 240, 0.1) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(226, 232, 240, 0.1) 1px, transparent 1px);
+}
+
+.dots-pattern {
+  background-image: radial-gradient(rgba(226, 232, 240, 0.3) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+/* Fancy scrollbar for designer appeal */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #818cf8, #a78bfa);
+  border-radius: 6px;
+  border: 3px solid #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to bottom, #6366f1, #8b5cf6);
 }
