@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -21,6 +22,7 @@ export default {
 			fontFamily: {
 				sans: ['Poppins', 'sans-serif'],
 				heading: ['Montserrat', 'sans-serif'],
+				serif: ['Playfair Display', 'serif'],
 			},
 			colors: {
 				border: 'hsl(var(--border))',
@@ -69,10 +71,15 @@ export default {
 				portfolio: {
 					blue: '#1E40AF',
 					lightBlue: '#3B82F6',
-					dark: '#0F172A',
+					dark: '#111119',     // Updated dark background
+					darker: '#0A0A12',   // Even darker shade
 					light: '#F8FAFC',
-					accent: '#6366F1',
+					accent: '#8344AD',   // Rich purple accent
+					purple: '#6D28D9',   // Additional purple
+					deepPurple: '#4C1D95', // Deep purple
+					gold: '#D4AF37',     // Luxurious gold
 					neutral: '#6B7280',
+					charcoal: '#1A1A2E', // Dark charcoal
 				}
 			},
 			borderRadius: {
@@ -126,6 +133,14 @@ export default {
 						transform: 'scale(1)',
 						opacity: '1'
 					}
+				},
+				'shimmer': {
+					'0%': {
+						backgroundPosition: '-200% 0'
+					},
+					'100%': {
+						backgroundPosition: '200% 0'
+					}
 				}
 			},
 			animation: {
@@ -133,7 +148,13 @@ export default {
 				'accordion-up': 'accordion-up 0.2s ease-out',
 				'fade-in': 'fade-in 0.5s ease-out',
 				'fade-out': 'fade-out 0.5s ease-out',
-				'scale-in': 'scale-in 0.3s ease-out'
+				'scale-in': 'scale-in 0.3s ease-out',
+				'shimmer': 'shimmer 2s linear infinite'
+			},
+			backgroundImage: {
+				'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+				'gradient-luxury': 'linear-gradient(to right, #8344AD, #5e60ce)',
+				'gradient-gold': 'linear-gradient(to right, #d4af37, #f2d98f)',
 			}
 		}
 	},

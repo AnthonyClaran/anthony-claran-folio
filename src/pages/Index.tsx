@@ -14,7 +14,8 @@ const Index = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-white overflow-x-hidden">
+    <div className="min-h-screen bg-portfolio-dark text-gray-200 overflow-x-hidden luxury-pattern">
+      <div className="absolute top-0 left-0 w-full h-full opacity-30 pointer-events-none bg-gradient-radial from-purple-900/10 via-transparent to-transparent"></div>
       <Navbar />
       <HeroSection />
       <AboutSection />
