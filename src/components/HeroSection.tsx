@@ -1,5 +1,5 @@
-
-import { ArrowDown } from "lucide-react";
+import { ArrowDown, Image } from "lucide-react";
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 
 const HeroSection = () => {
   return (
@@ -10,6 +10,20 @@ const HeroSection = () => {
       
       <div className="section-container flex flex-col items-center justify-center relative z-10">
         <div className="max-w-3xl mx-auto text-center">
+          {/* Add avatar/photo */}
+          <div className="mb-8 flex justify-center">
+            <Avatar className="w-36 h-36 border-4 border-amber-400 shadow-lg">
+              <AvatarImage 
+                src="/placeholder.svg" 
+                alt="Anthony Claran" 
+                className="object-cover"
+              />
+              <AvatarFallback>
+                <Image className="text-gray-400" />
+              </AvatarFallback>
+            </Avatar>
+          </div>
+
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
             <span className="block font-serif font-medium text-lg md:text-xl text-amber-300 mb-2">Bienvenue, je suis</span>
             <span className="block mb-2">Anthony Claran</span>
