@@ -1,31 +1,34 @@
 
-import { ExternalLink, Github } from "lucide-react";
+import { ExternalLink, Figma, Github } from "lucide-react";
 
 const ProjectsSection = () => {
   const projects = [
     {
-      title: "Portfolio Luxe",
-      description: "Design et développement d'un portfolio élégant avec React et TailwindCSS.",
-      image: "https://placehold.co/600x400/1a1a2e/e2e8f0?text=Portfolio+Luxe",
-      tags: ["React", "TailwindCSS", "Design UI"],
-      github: "#",
-      demo: "#"
+      title: "Palmier Madagascar",
+      description: "Conception de logo et Marcketing de vente de vêtement en restant sur les traditions de Madagascar",
+      image: "@/../../../public/Asset 12.png",
+      tags: ["Logo", "Mockup", "Visuel"],
+      // github: "#",
+      // demo: "#",
+      // Figma: "#"
     },
     {
-      title: "E-Commerce Boutique",
-      description: "Plateforme e-commerce avec système de paiement et panneau d'administration.",
-      image: "https://placehold.co/600x400/1a1a2e/e2e8f0?text=E-Commerce",
-      tags: ["Next.js", "Stripe", "MongoDB"],
-      github: "#",
-      demo: "#"
+      title: "Profily",
+      description: "Plateforme pour Chercher employe avec système de faciliter un peut comme le linkedIn.",
+      image: "@/../../../public/Asset 22.png",
+      tags: ["Illustrator", "Figma", "UI/UX Design"],
+      // github: "#",
+      // demo: "#",
+      Figma: "https://www.figma.com/design/jobDb7ToSg4nF5yb21h3WM/Untitled?node-id=80-787&t=4U9nne8h0HpOntTE-1"
     },
     {
-      title: "Identity Branding",
-      description: "Création d'identité visuelle complète pour une entreprise locale.",
-      image: "https://placehold.co/600x400/1a1a2e/e2e8f0?text=Branding",
-      tags: ["Illustrator", "Photoshop", "Branding"],
+      title: "Stellar",
+      description: "Création d'identité visuelle complète  avec une site web pour une entreprise de bicyclette.",
+      image: "@/../../../public/Component 4.png",
+      tags: ["Figma", "Vue.Js", "Dolibarr"],
       github: null,
-      demo: "#"
+      // demo: "#",
+      Figma: "https://www.figma.com/design/3Vi8jIrFKsfROPYjoui1xR/Stellar?node-id=0-1&t=COpJx22GbLblxs9g-1"
     },
     {
       title: "Application Mobile",
@@ -82,8 +85,8 @@ const ProjectsSection = () => {
                 <p className="text-gray-400 mb-4">{project.description}</p>
                 
                 <div className="flex items-center space-x-3">
-                  {project.github && (
-                    <a 
+                {project.github && (
+                    <a
                       href={project.github}
                       className="inline-flex items-center px-4 py-2 bg-gray-800 text-gray-200 rounded-lg hover:bg-gray-700 transition-colors duration-300"
                     >
@@ -91,9 +94,18 @@ const ProjectsSection = () => {
                       <span>Code</span>
                     </a>
                   )}
+                  {project.Figma && (
+                    <a
+                      href={project.Figma}
+                      className="inline-flex items-center px-4 py-2 bg-gray-800 text-gray-200 rounded-lg hover:bg-gray-700 transition-colors duration-300"
+                    >
+                      <Figma size={18} className="mr-2" />
+                      <span>Figma</span>
+                    </a>
+                  )}
                   
                   {project.demo && (
-                    <a 
+                    <a
                       href={project.demo}
                       className="inline-flex items-center px-4 py-2 bg-purple-900/50 text-purple-300 rounded-lg hover:bg-purple-900/70 transition-colors duration-300"
                     >

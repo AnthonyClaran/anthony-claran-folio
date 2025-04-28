@@ -14,13 +14,13 @@ const HeroSection = () => {
           <div className="mb-8 flex justify-center">
             <Avatar className="w-36 h-36 border-4 border-amber-400 shadow-lg">
               <AvatarImage 
-                src="/placeholder.svg" 
+                src="./../../public/Rectangle 4.png" 
                 alt="Anthony Claran" 
                 className="object-cover"
               />
-              <AvatarFallback>
+              {/* <AvatarFallback>
                 <Image className="text-gray-400" />
-              </AvatarFallback>
+              </AvatarFallback> */}
             </Avatar>
           </div>
 

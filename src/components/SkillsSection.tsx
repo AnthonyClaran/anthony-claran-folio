@@ -6,18 +6,20 @@ const SkillsSection = () => {
     { name: "JavaScript", level: 90 },
     { name: "TypeScript", level: 85 },
     { name: "React", level: 90 },
-    { name: "Node.js", level: 80 },
+    { name: "Vue Js", level: 80 },
     { name: "PHP", level: 75 },
     { name: "Python", level: 70 },
+    { name: "Laravel", level: 70 },
   ];
   
   const designSkills = [
     { name: "Photoshop", level: 90 },
     { name: "Illustrator", level: 85 },
     { name: "Figma", level: 95 },
-    { name: "After Effects", level: 70 },
+    { name: "Adobe Premier Pro", level: 70 },
     { name: "UI/UX Design", level: 85 },
     { name: "Branding", level: 80 },
+    { name: "inDesign", level: 80 },
   ];
 
   return (

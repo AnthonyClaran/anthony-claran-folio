@@ -33,11 +33,11 @@ const AboutSection = () => {
                 <p className="text-sm text-gray-400">IT Andoharanofotsy</p>
                 <p className="text-sm text-purple-300">2022 - Présent</p>
               </div>
-              <div>
+              {/* <div>
                 <h4 className="font-medium text-gray-200">Formation en Design Graphique</h4>
                 <p className="text-sm text-gray-400">Certification professionnelle</p>
                 <p className="text-sm text-purple-300">2021</p>
-              </div>
+              </div> */}
             </div>
           </div>
           
