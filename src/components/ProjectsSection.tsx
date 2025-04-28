@@ -29,15 +29,15 @@ const ProjectsSection = () => {
       github: null,
       // demo: "#",
       Figma: "https://www.figma.com/design/3Vi8jIrFKsfROPYjoui1xR/Stellar?node-id=0-1&t=COpJx22GbLblxs9g-1"
-    },
-    {
-      title: "Application Mobile",
-      description: "Application mobile de suivi de fitness avec statistiques personnalisées.",
-      image: "https://placehold.co/600x400/1a1a2e/e2e8f0?text=App+Mobile",
-      tags: ["React Native", "Firebase", "UI/UX"],
-      github: "#",
-      demo: "#"
     }
+    // {
+    //   title: "Application Mobile",
+    //   description: "Application mobile de suivi de fitness avec statistiques personnalisées.",
+    //   image: "https://placehold.co/600x400/1a1a2e/e2e8f0?text=App+Mobile",
+    //   tags: ["React Native", "Firebase", "UI/UX"],
+    //   github: "#",
+    //   demo: "#"
+    // }
   ];
 
   return (
@@ -104,7 +104,7 @@ const ProjectsSection = () => {
                     </a>
                   )}
                   
-                  {project.demo && (
+                  {/* {project.demo && (
                     <a
                       href={project.demo}
                       className="inline-flex items-center px-4 py-2 bg-purple-900/50 text-purple-300 rounded-lg hover:bg-purple-900/70 transition-colors duration-300"
@@ -112,7 +112,7 @@ const ProjectsSection = () => {
                       <ExternalLink size={18} className="mr-2" />
                       <span>Demo</span>
                     </a>
-                  )}
+                  )} */}
                 </div>
               </div>
             </div>
