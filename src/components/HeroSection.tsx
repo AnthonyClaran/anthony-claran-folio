@@ -25,8 +25,9 @@ const HeroSection = () => {
           </div>
 
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
-            <span className="block font-serif font-medium text-lg md:text-xl text-amber-300 mb-2">Bienvenue, je suis</span>
+            {/* <span className="block font-serif font-medium text-lg md:text-xl text-amber-300 mb-2">Bienvenue, je suis</span> */}
             <span className="block mb-2">Anthony Claran</span>
+            <span className="block mb-2">RANDRIANANTOANDRO</span>
             <span className="text-gradient">Développeur & Designer</span>
           </h1>
           
