@@ -1,12 +1,15 @@
 
 import { ExternalLink, Figma, Github } from "lucide-react";
+import assets1 from "@/assets/Asset 22.png";
+import assets2 from "@/assets/Asset 12.png";
+import assets3 from "@/assets/Component 4.png";
 
 const ProjectsSection = () => {
   const projects = [
     {
       title: "Palmier Madagascar",
       description: "Conception de logo et Marcketing de vente de vêtement en restant sur les traditions de Madagascar",
-      image: "@/assets/Asset 12.png",
+      image: assets2,
       tags: ["Logo", "Mockup", "Visuel"],
       // github: "#",
       // demo: "#",
@@ -15,7 +18,7 @@ const ProjectsSection = () => {
     {
       title: "Profily",
       description: "Plateforme pour Chercher employe avec système de faciliter un peut comme le linkedIn.",
-      image: "@/assets/Asset 22.png",
+      image: assets1,
       tags: ["Illustrator", "Figma", "UI/UX Design"],
       // github: "#",
       // demo: "#",
@@ -24,7 +27,7 @@ const ProjectsSection = () => {
     {
       title: "Stellar",
       description: "Création d'identité visuelle complète  avec une site web pour une entreprise de bicyclette.",
-      image: "@/assets/Component 4.png",
+      image: assets3,
       tags: ["Figma", "Vue.Js", "Dolibarr"],
       github: null,
       Figma: "https://www.figma.com/design/3Vi8jIrFKsfROPYjoui1xR/Stellar?node-id=0-1&t=COpJx22GbLblxs9g-1"
