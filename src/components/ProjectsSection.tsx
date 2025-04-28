@@ -27,7 +27,6 @@ const ProjectsSection = () => {
       image: "@/assets/Component 4.png",
       tags: ["Figma", "Vue.Js", "Dolibarr"],
       github: null,
-      // demo: "#",
       Figma: "https://www.figma.com/design/3Vi8jIrFKsfROPYjoui1xR/Stellar?node-id=0-1&t=COpJx22GbLblxs9g-1"
     }
     // {
