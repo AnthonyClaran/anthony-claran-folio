@@ -6,7 +6,7 @@ const ProjectsSection = () => {
     {
       title: "Palmier Madagascar",
       description: "Conception de logo et Marcketing de vente de vêtement en restant sur les traditions de Madagascar",
-      image: "@/../../../public/Asset 12.png",
+      image: "@/assets/Asset 12.png",
       tags: ["Logo", "Mockup", "Visuel"],
       // github: "#",
       // demo: "#",
@@ -15,7 +15,7 @@ const ProjectsSection = () => {
     {
       title: "Profily",
       description: "Plateforme pour Chercher employe avec système de faciliter un peut comme le linkedIn.",
-      image: "@/../../../public/Asset 22.png",
+      image: "@/assets/Asset 22.png",
       tags: ["Illustrator", "Figma", "UI/UX Design"],
       // github: "#",
       // demo: "#",
@@ -24,7 +24,7 @@ const ProjectsSection = () => {
     {
       title: "Stellar",
       description: "Création d'identité visuelle complète  avec une site web pour une entreprise de bicyclette.",
-      image: "@/../../../public/Component 4.png",
+      image: "@/assets/Component 4.png",
       tags: ["Figma", "Vue.Js", "Dolibarr"],
       github: null,
       // demo: "#",
