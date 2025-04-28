@@ -154,11 +154,12 @@ export default {
 			},
 			backgroundImage: {
 				'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-				'gradient-luxury': 'linear-gradient(to right, #d4af37, #b08c21)',
-				'gradient-gold': 'linear-gradient(to right, #d4af37, #f2d98f)',
+				'gradient-luxury': 'linear-gradient(to right,rgb(55, 123, 212),rgb(22, 13, 146))',
+				'gradient-gold': 'linear-gradient(to right, rgb(55, 123, 212),rgb(22, 13, 146))',
 				'gradient-dark': 'linear-gradient(to bottom, #0c0c14, #050508)',
 			}
 		}
 	},
+	// eslint-disable-next-line @typescript-eslint/no-require-imports
 	plugins: [require("tailwindcss-animate")],
 } satisfies Config;
