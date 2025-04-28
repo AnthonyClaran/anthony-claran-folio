@@ -1,5 +1,6 @@
 import { ArrowDown, Image } from "lucide-react";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
+import photo from "@/assets/Rectangle 4.png";
 
 const HeroSection = () => {
   return (
@@ -14,7 +15,7 @@ const HeroSection = () => {
           <div className="mb-8 flex justify-center">
             <Avatar className="w-36 h-36 border-4 border-amber-400 shadow-lg">
               <AvatarImage 
-                src=" @/assets/Rectangle 4.png" 
+                src={photo}
                 alt="Anthony Claran" 
                 className="object-cover"
               />
