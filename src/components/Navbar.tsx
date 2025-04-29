@@ -78,12 +78,12 @@ const Navbar = () => {
                 }`}
               >
                 {activeSection === link.id && (
-                  <span className="absolute inset-0 bg-gradient-to-r from-amber-600 to-yellow-500 rounded-lg -z-10 animate-scale-in"></span>
+                  <span className="absolute inset-0 bg-gradient-to-r from-amber-600 to-bleu-500 rounded-lg -z-10 animate-scale-in"></span>
                 )}
                 {link.name}
               </a>
             ))}
-            
+
             {/* <a 
               href="#contact" 
               className="ml-4 px-6 py-2 bg-gradient-to-r from-amber-600 to-yellow-500 text-gray-900 rounded-lg font-medium shadow-md hover:shadow-amber-500/30 transition-all duration-300 transform hover:-translate-y-0.5"
